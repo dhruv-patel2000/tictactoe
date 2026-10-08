@@ -1,0 +1,91 @@
+name: tic_tac_toe
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.1.0+17
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  cached_network_image: ^4.0.0
+  dotted_border: ^3.1.0
+  flutter_bloc: ^9.0.0
+  firebase_database: ^12.4.6
+  firebase_auth: ^6.5.6
+  firebase_storage: ^13.4.5
+  shared_preferences: ^2.5.3
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^8.1.0
+  firebase_core: ^4.12.1
+  firebase_app_check: ^0.4.5+2
+  bloc: ^9.0.0
+  uuid: ^4.5.1
+  dotted_line: ^3.2.3
+  flutter_inapp_purchase: ^10.4.1
+  google_mobile_ads: ^9.0.0
+  app_tracking_transparency: ^2.0.6+1
+  unity_ads_plugin: ^0.4.0
+  bloc_concurrency: ^0.3.0
+  auto_size_text: ^3.0.0
+  webview_flutter: ^4.10.0
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  share_plus: ^13.2.1
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter 
+  flutter_lints: ^6.0.0
+
+
+dependency_overrides:
+  url_launcher_android: 6.3.24
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/branding/ic_launcher.png"
+  adaptive_icon_foreground: "assets/branding/ic_launcher_transparent.png"
+  adaptive_icon_background: "assets/branding/ic_launcher_background.png"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/svg/
+    - assets/svg/skins/
+    - assets/png/
+    - assets/fonts/
+    - assets/languages/
+    - assets/music/
+
+
+  fonts:
+    - family: tangerine
+      fonts:
+        
+        - asset: assets/fonts/Tangerine-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tangerine-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Tangerine-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tangerine-Bold.ttf
+          weight: 600
+
